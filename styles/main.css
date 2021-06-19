@@ -1,0 +1,31 @@
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    height: 10vh;
+    margin-left: 10%;
+}
+
+#cell-container {
+    display: grid;
+    width: 50vh;
+    height: 50vh;
+    grid-template-areas:
+    "0 1 2"
+    "3 4 5"
+    "6 7 8";
+    border: red solid 1px;
+}
+
+.cells {
+    font-size: 13vh;
+}
+
+.cells:hover {
+    background-color: burlywood;
+}
+
+li {
+    list-style: none;
+}
